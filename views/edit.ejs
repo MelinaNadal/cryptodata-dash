@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="./public/css/style.css" rel="stylesheet"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@300&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CryptoData Dashboard</title>
+  <title>cRyptoDatA DasHboaRD</title>
 </head>
 <body>
   <h1>Add</h1>
   <form action='./dash/<%= post._id %>?_method=PUT' method='POST'>
-    <label for='title'>Title</label>
-    <input name='title' type='text' value='<%= post.title %>'/>
+    <label for='coin'>Coin Name</label>
+    <input name='coin' type='text' value='<%= post.coin %>'/>
 
-    <label for='body'>Body</label>
-    <textarea name='body'/><%= post.body %></textarea>
+    <label for='Ticker Symbol'>Ticker Symbol</label>
+    <textarea name='Ticker Symbol'/><%= post.body %></textarea>
 
     <input type='submit' />
 

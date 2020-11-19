@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="./public/css/style.css" rel="stylesheet"/>
+  <link href="/css/style.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@300&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= post.title %></title>
@@ -9,7 +12,7 @@
 <body>
   <h1><%= post.title %></h1>
   <p><%=  post.body %></p>
-  <a href='/dash'>Back to Blog</a>
+  <a href='/dash'>Back to Dash</a>
   <a href='/dash/edit/<%= post._id %>'>Edit Crypto</a>
 
   <form action='/dash/<%= post._id %>?_method=DELETE' method='POST'>
