@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CryptoData Dashboard</title>
+
+</head>
+<body>
+  <h1>CryptoData Dashboard</h1>
+  <ul>
+    <% for(let i = 0; i < posts.length; i++){ %>
+      <li>
+        <a href="/dash/<%= posts[i]._id %>">
+          <%= posts[i].title %>
+        </a>
+      </li>
+    <% } %>
+  </ul>
+  <a href='/dash/new'>Add Crypto to Dashboard</a>
+</body>
+</html>

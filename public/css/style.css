@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+justify-content: center;
+border: 10px outset #547854;
+text-align: center;
+align-items: center;
+background-color: rgb(212, 210, 208);
+font-family: 'Major Mono Display', monospace;
+font-size: 60px;
+margin: 50px;
+padding: 70px;
+}
+form {
+    font-family: 'Major Mono Display', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin:25px;
+    
+}
+form { 
+    font-family: 'Major Mono Display', monospace;
+    padding: 10px;
+    margin: 10px;
+
+}
+#input-box {
+    font-family:'Major Mono Display', monospace;
+    padding: 10px;
+    margin: 10px;
+}
+button {
+    font-family: 'Major Mono Display', monospace;
+    padding: 10px;
+    margin: 10px;
+
+}
+img {
+    max-height: 95px;
+}
+p {
+    font-family: arial;
+    display: inline;
+    max-width: height 100%;
+}
+
+   
+}
+input{
+  font-family: 'Major Mono Display', monospace;
+  font-weight: 100px;
+  color: forestgreen;
+  justify-content: flex-start;
+  text-decoration: bold;
+  padding:10px;
+  margin: 10px;
+}
+
+h3 {
+    flex-direction: column;
+    font-family: 'Major Mono Display', monospace;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid black;
+}
+main {
+    font-weight: 'Major Mono Display', monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    background: white;
+    
+    
+    }
+   
+body {
+    display: center;
+    border: 5px groove black;
+    background-image: linear-gradient(rgb(68, 61, 61), grey);
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body {
+	background: linear-gradient(-45deg, white, lightgray, black, gray);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+    }
+
+    @media only screen and (max-width:768px) {
+        [class*="col-"]{
+            width: 100%;
+        }
+    }

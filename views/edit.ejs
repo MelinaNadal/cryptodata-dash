@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CryptoData Dashboard</title>
+</head>
+<body>
+  <h1>Add</h1>
+  <form action='/dash/<%= post._id %>?_method=PUT' method='POST'>
+    <label for='title'>Title</label>
+    <input name='title' type='text' value='<%= post.title %>'/>
+
+    <label for='body'>Body</label>
+    <textarea name='body'/><%= post.body %></textarea>
+
+    <input type='submit' />
+
+    <a href='/dash/<%= post._id %>'>Cancel</a>
+  </form>
+</body>
+</html>
