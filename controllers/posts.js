@@ -43,7 +43,6 @@ router.put('/:id', (req, res) => {
   })
 })
 
-
 router.post('/', (req, res) => {
   Post.create(req.body, (error, newPost) => {
     res.redirect('/dash');
@@ -58,7 +57,6 @@ router.get('/edit/:id', (req, res) => {
     })
   })
 })
-
 
 router.get('/:id', (req, res) => {
   Post.findById(req.params.id, (error, foundPost) => {
