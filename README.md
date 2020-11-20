@@ -30,9 +30,11 @@ https://cryptodata-dash.herokuapp.com/dash
 
 ![Screen Shot 2020-11-20 at 12 17 27 AM](https://user-images.githubusercontent.com/73125103/99762158-daa36f80-2ac5-11eb-8b38-9112bcb7b9e5.png)
 
-##Wireframe
 
 ![Screen Shot 2020-11-20 at 12 19 55 AM](https://user-images.githubusercontent.com/73125103/99762312-35d56200-2ac6-11eb-8bec-c2ca602cfcce.png)
+
+##Wireframe
+
 
 #future Enhancements wireframe
 
