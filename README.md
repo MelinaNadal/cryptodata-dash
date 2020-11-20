@@ -26,4 +26,4 @@ https://cryptodata-dash.herokuapp.com/dash
 * Deploy to Perosonal Domain
 
 ##Screen Shots
-
+![Screen Shot 2020-11-20 at 12 14 59 AM](https://user-images.githubusercontent.com/73125103/99762049-944e1080-2ac5-11eb-9aa9-835cafd91505.png)
